@@ -13,7 +13,7 @@ export default function Pro() {
         <h1>Project</h1>
         <h3>RECENTLY COMPLETED</h3>
       </div>
-      <div className="container flex justify-center items-center flex-col md:flex-row  lg:flex-row xl:flex-row 2xl:flex-row  center">
+      <div className="container flex  xl:m-20 justify-center items-center flex-col md:flex-row  lg:flex-row xl:flex-row 2xl:flex-row  center">
         <div className="card ">
           <div className="face  face1 ">
             <img src={img} alt="image" />
@@ -31,7 +31,7 @@ export default function Pro() {
                 Read More
               </a>
             </div>
-          </div>
+          </div> 
         </div>
 
         <div className="card">
