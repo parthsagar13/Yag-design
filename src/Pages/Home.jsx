@@ -20,7 +20,7 @@ export default function Home() {
       
         <Hero />
      
-      <div className=" container1 m-8 flex  a-center j-center">
+      <div className=" container1 m-8 flex xl:m-30 a-center j-center">
         <div className="image1 md:w-1/2  md:block hidden">
           <img src={hero } className=" ml-6 " alt="image" />
         </div>
@@ -70,7 +70,7 @@ export default function Home() {
         
         </div>
       </div>
-      <div className="md:flex m-8 flex-row-reverse  justify-center items-center">
+      <div className="md:flex m-8 flex-row-reverse xl:m-20 justify-center items-center">
         <div className="md:w-1/2 image w-60  flex justify-center items-center mx-auto md:mx-none" onClick={() => navigate("/about")}>
           <img className="img1 md:w-80 " src={img} alt="image" />
           {/* <img className="img2" src={img1} alt="image" /> */}

@@ -268,7 +268,7 @@ const Container = styled.div`
 
   .footer-distributed .footer-icons a {
     display: inline-block;
-    width: 35px;
+    width: 35px;   
     height: 35px;
     cursor: pointer;
     background-color: #33383b;
