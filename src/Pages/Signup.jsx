@@ -11,6 +11,7 @@ import logo from "../assets/logo5.png";
 import showPwdImg from '../assets/show-password.svg';
 import hidePwdImg from '../assets/hide-password.svg';
 import styled from "styled-components";
+import Navbar from "../Components/Navbar";
 
 const Signup = () => {
             // eslint-disable-next-line
@@ -83,14 +84,7 @@ const Signup = () => {
 
   return (
     <Container>
-      <nav className= "defaultMargin" >
-        <div className="left flex a-center">
-          <div className="brand flex a-center j-center" onClick={() => navigate("/")}>
-            <img src={logo} alt="logo" />
-            <p>- design</p>
-          </div>
-        </div>
-      </nav>
+    <Navbar/>
       <div className="login">
         <div className="holder">
           <h2 className="text-white">{page ? "Sign in" : "Sign Up"}</h2>
@@ -146,7 +140,7 @@ const Signup = () => {
                   id="flexCheckDefault"
                 />
                 <label
-                  className="form-check-label text-white"
+                  className="form-check-labele"
                   htmlFor="flexCheckDefault"
                 >
                   Remember Me
@@ -198,7 +192,7 @@ const Container = styled.div`
     position: sticky;
     top: 0;
     height: 4.5rem;
-    background-color: #1477d1;
+    /* background-color: #1477d1; */
     width: 100%;
     justify-content: space-between;
     position: fixed;
@@ -233,13 +227,13 @@ const Container = styled.div`
 .login{
   height: 100vh;
   overflow: hidden;
-  background-color: #1477d1;
+  /* background-color: #1477d1; */
   
   .holder{
   .btn{
     padding: 7px 19px;
-    background-color: #1477d1;
-    color: #ffffff;
+    /* background-color: #1477d1; */
+    color: #000000;
     font-size: 1rem;
     border-radius: 6px;
     border: 2px;
@@ -247,7 +241,7 @@ const Container = styled.div`
   }
     padding: 60px 68px 40px;
     border-radius: 4px;
-    background-color: #f7f7f7;
+    background-color: #978787;
     width: 450px;
     position: absolute;
     z-index: 1;

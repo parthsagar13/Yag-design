@@ -29,7 +29,7 @@ export default function Home() {
           <div className="column flex">
             <div className=" flex mr-0 justify-center items-center">
             <img src={sym1} className='w-24' alt="image" />
-            <h2 >Best Quality</h2>
+            <h2 className="text-[#2871b1]" >Best Quality</h2>
             </div>
             <p className="p-4 xl:px-40 lg:px-21 md:px-12">
               Publishing packages and web page editors now use Lorem Ipsum as
@@ -39,7 +39,7 @@ export default function Home() {
           <div className="column flex  ">
             <div className=" flex mr-0 justify-center items-center">
             <img src={sym2} className='w-24' alt="image" />
-            <h2 >Top Rated</h2>
+            <h2 className="text-[#2871b1]" >Top Rated</h2>
             </div>
             <p className="p-4 xl:px-40 lg:px-21 md:px-12 ">
               Publishing packages and web page editors now use Lorem Ipsum as
@@ -49,23 +49,14 @@ export default function Home() {
           <div className="column flex  ">
             <div className=" flex mr-0 justify-center items-center">
             <img src={sym3} className='w-24' alt="image" />
-            <h2 >Low Price</h2>
+            <h2 className="text-[#2871b1]" >Low Price</h2>
             </div>
             <p className="p-4 xl:px-40 lg:px-21 md:px-12">
               Publishing packages and web page editors now use Lorem Ipsum as
               their default model text and a search for lorem ipsumwill uncover
             </p>
           </div>
-          <div className="column flex  ">
-            <div className=" flex mr-0 justify-center items-center">
-            <img src={sym3} className='w-24' alt="image" />
-            <h2 >Low Price</h2>
-            </div>
-            <p className="p-4 xl:px-40 lg:px-21 md:px-12">
-              Publishing packages and web page editors now use Lorem Ipsum as
-              their default model text and a search for lorem ipsumwill uncover
-            </p>
-          </div>
+    
         
         
         </div>
@@ -76,7 +67,7 @@ export default function Home() {
           {/* <img className="img2" src={img1} alt="image" /> */}
         </div>
       <div className="info md:w-1/2 mt-6">
-          <h1 className="px-4 py-2">About Us</h1>
+          <h1 className="px-4 py-2 text-[#2871b1]  ">About Us</h1>
           <h2  className="px-4 py-3">Create various innovative and creative environments.</h2>
           <p  className="px-4 ">
             Pradeep Makhijani & Associates is an architectural design firm

@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import { Link, animateScroll as scroll, } from 'react-scroll'
-import { FaSearch } from "react-icons/fa";
 import logo from "../assets/logo5.png";
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { useNavigate } from 'react-router-dom';
@@ -10,14 +9,10 @@ const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
     const navigate = useNavigate("");
-
-      const [showSearh, setShowSearch] = useState(false);
-  const [inputHover, setInputHover] = useState(false);
   return (
     <Container className='w-screen h-[80px]  text-white  z-10 fixed   '>
       <div className=' flex justify-between  bg-zinc-900/[.87] items-center  w-full h-full'>
         <div className='flex  items-center'>
-          {/* <h1 className='text-3xl font-bold mr-4 sm:text-4xl '>BRAND.</h1> */}
           <div className="flex a-center  j-center ml-5 " onClick={() => navigate("/")}>
             <img src={logo} className='w-20' alt="logo" />
             <p className='font-sans text-[#2871b1] '>- design</p>
@@ -31,34 +26,7 @@ const Navbar = () => {
           <li><Link onClick={() => navigate("/contact")} smooth={true} offset={-50} duration={500}>Contact</Link></li>
           </ul>
         </div>
-        {/* <div className="right flex  ">
-          <div className={`search ${showSearh ? "show-search" : ""}`}>
-            <button className=''
-              onFocus={() => setShowSearch(true)}
-              onBlur={() => {
-                if (!inputHover) setShowSearch(false);
-              }}
-              >
-              <FaSearch />
-            </button>
-            <input className='
-            text-sm '
-              type="text"
-              placeholder="Search"
-              onMouseEnter={() => setInputHover(true)}
-              onMouseLeave={() => setInputHover(false)}
-              onBlur={() => {
-                setShowSearch(false); 
-                setInputHover(false);
-              }}
-            />
-          </div>
-          </div> */}
-{/* 
-          <button className="btn" onClick={() => navigate("/login")}>Log in</button>
-              
-          <button  className="btn" onClick={() => navigate("/signup")}>Sign Up</button> */}
- 
+  
         <div className='hidden md:flex md:text-xs xl:text-sm  pr-8'>
           <button onClick={() => navigate("/login")}className='  px-5 py-2 border rounded-lg border-[#2871b1]  mr-4 hover:bg-[#2871b1] '>
             Log In

@@ -10,8 +10,8 @@ export default function Pro() {
   return (
     <Container>
       <div className="info ">
-        <h1>Project</h1>
-        <h3>RECENTLY COMPLETED</h3>
+        <h1 className="text-[#2871b1]" >Project</h1>
+        <h3 className="text-[#2871b1]" >RECENTLY COMPLETED</h3>
       </div>
       <div className="container flex  xl:m-20 justify-center items-center flex-col md:flex-row  lg:flex-row xl:flex-row 2xl:flex-row  center">
         <div className="card ">
