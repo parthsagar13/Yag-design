@@ -20,7 +20,7 @@ export default function Home() {
       
         <Hero />
      
-      <div className=" container1 m-8 flex xl:m-30 a-center j-center">
+      <div className=" container1 m-8 flex xl:m-30 a-center j-center">  
         <div className="image1 md:w-1/2  md:block hidden">
           <img src={hero } className=" ml-6 " alt="image" />
         </div>

@@ -18,7 +18,7 @@ export default function Footer() {
     <Container>
       <footer className="footer-distributed">
         <div className="footer-left">
-          {/* <h3>Company<span>logo</span></h3> */}
+          {/* <img src={logo} alt="" /> */}
           <div
             className="brand flex a-center j-center"
             onClick={() => navigate("/")}
@@ -266,7 +266,7 @@ const Container = styled.div`
     /* margin-top: 25px; */
   }
 
-  .footer-distributed .footer-icons a {
+  .footer-distributed .footer-icons a {  
     display: inline-block;
     width: 35px;   
     height: 35px;
@@ -275,6 +275,16 @@ const Container = styled.div`
     border-radius: 2px;
     padding: 8px; 
     font-size: 20px;
+
+
+
+
+
+
+
+
+
+    
     color: #ffffff;
     text-align: center;
     line-height: 35px;

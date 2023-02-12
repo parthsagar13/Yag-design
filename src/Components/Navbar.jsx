@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { Link, animateScroll as scroll, } from 'react-scroll'
-import logo from "../assets/logo5.png";
+import logo from "../assets/logo-7.png";
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
@@ -14,8 +14,8 @@ const Navbar = () => {
       <div className=' flex justify-between  bg-zinc-900/[.87] items-center  w-full h-full'>
         <div className='flex  items-center'>
           <div className="flex a-center  j-center ml-5 " onClick={() => navigate("/")}>
-            <img src={logo} className='w-20' alt="logo" />
-            <p className='font-sans text-[#2871b1] '>- design</p>
+            <img src={logo} className='w-32' alt="logo" />
+            {/* <p className='font-sans text-[#2871b1] '>- design</p> */}
           </div>
           <ul className='hidden md:flex md:gap-4 lg:gap-6 lg:ml-20 xl:gap-10 xl:text-lg md:text-sm md:ml-10  cursor-pointer  xl:ml-52 '>
           <li><Link onClick={() => navigate("/")}smooth={true} duration={500}>Home</Link></li>
