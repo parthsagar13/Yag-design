@@ -18,7 +18,7 @@ export default function Footer() {
     <Container>
       <footer className="footer-distributed">
         <div className="footer-left">
-          {/* <img src={logo} alt="" /> */}
+        {/* <img src={logo} className='w-32' alt="logo" /> */}
           <div
             className="brand flex a-center j-center"
             onClick={() => navigate("/")}

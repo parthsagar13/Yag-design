@@ -11,7 +11,7 @@ const Navbar = () => {
     const navigate = useNavigate("");
   return (
     <Container className='w-screen h-[80px]  text-white  z-10 fixed   '>
-      <div className=' flex justify-between  bg-zinc-900/[.87] items-center  w-full h-full'>
+      <div className=' flex justify-between  bg-zinc-900/[.97] items-center  w-full h-full'>
         <div className='flex  items-center'>
           <div className="flex a-center  j-center ml-5 " onClick={() => navigate("/")}>
             <img src={logo} className='w-32' alt="logo" />
@@ -39,7 +39,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <ul className={!nav ? 'hidden' : 'absolute   bg-zinc-900/[.87]  w-full px-8 '}>
+      <ul className={!nav ? 'hidden' : 'absolute   bg-zinc-900/[.97]  w-full px-8 '}>
           <li className='  w-full        py-2'><Link onClick={() => navigate("/")} to="/" smooth={true} duration={500}>Home</Link></li>
           <li className='         py-2 w-full'><Link   onClick={() => navigate("/about")} smooth={true} offset={-200} duration={500}>About</Link></li>
           <li className='       py-2 w-full'><Link onClick={() => navigate("/service")} smooth={true} offset={-50} duration={500}>service</Link></li>
