@@ -13,7 +13,7 @@ const Navbar = () => {
     <Container className='w-screen h-[80px]  text-white  z-10 fixed   '>
       <div className=' flex justify-between  bg-zinc-900/[.97] items-center  w-full h-full'>
         <div className='flex  items-center'>
-          <div className="flex a-center  j-center ml-5 " onClick={() => navigate("/")}>
+          <div className="flex a-center  j-center ml-5 cursor-pointer " onClick={() => navigate("/")}>
             <img src={logo} className='w-32' alt="logo" />
             {/* <p className='font-sans text-[#2871b1] '>- design</p> */}
           </div>
