@@ -50,3 +50,6 @@ body{
   align-items: center;
 }
 
+.defaultMargin {
+  margin: 3 12rem;
+}

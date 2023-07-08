@@ -6,16 +6,16 @@ import {
   createUserWithEmailAndPassword,
 } from "firebase/auth";
 import { firebaseConfig } from "../Utils/firebaseconfig";
-import React, { useEffect, useState } from "react";
-import logo from "../assets/logo5.png";
-import showPwdImg from '../assets/show-password.svg';
-import hidePwdImg from '../assets/hide-password.svg';
+import React, { useEffect, useState } from "react"; 
+// import logo from "../assets/logo5.png";
+// import showPwdImg from '../assets/show-password.svg';
+// import hidePwdImg from '../assets/hide-password.svg';
 import styled from "styled-components";
 import Navbar from "../Components/Navbar";
 
 const Login = () => {
             // eslint-disable-next-line
-  const app = initializeApp(firebaseConfig);
+  const app = initializeApp(firebaseConfig); 
   const navigate = useNavigate();
   const location = useLocation();
   const page = location.pathname === "/login" ? true : false;
@@ -114,11 +114,11 @@ const Login = () => {
           onChange={e => setPwd(e.target.value)}
           />
           {/* // eslint-disable-next-line */}
-        <img
+        {/* <img
           title={isRevealPwd ? "Hide password" : "Show password"}
           src={isRevealPwd ? hidePwdImg : showPwdImg}
           onClick={() => setIsRevealPwd(prevState => !prevState)}
-        />
+        /> */}
       </div>
 
     </div>
@@ -156,7 +156,7 @@ const Login = () => {
               </p>
             )}
             {isEmailUsed && (
-              <p className="text-warning">
+              <p className="text-warning">y
                 Email already in Use | Go for Sign in
               </p>
             )}
