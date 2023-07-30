@@ -79,7 +79,7 @@ export default function Home() {
               <h2 className="text-[#2871b1]">Best Quality</h2>
             </Grid>
           </Grid>
-          <p className="p-4 xl:px-40 lg:px-21 md:px-12">
+          <p className="p-4 xl:px-40 text-center lg:px-21 md:px-12">
             Publishing packages and web page editors now use Lorem Ipsum as their default model text and a search for
             lorem ipsumwill uncover
           </p>
@@ -93,7 +93,7 @@ export default function Home() {
               <h2 className="text-[#2871b1]">Top Rated</h2>
             </Grid>
           </Grid>
-          <p className="p-4 xl:px-40 lg:px-21 md:px-12">
+          <p className="p-4 xl:px-40 text-center lg:px-21 md:px-12">
             Publishing packages and web page editors now use Lorem Ipsum as their default model text and a search for
             lorem ipsumwill uncover
           </p>
@@ -107,7 +107,7 @@ export default function Home() {
               <h2 className="text-[#2871b1]">Low Price</h2>
             </Grid>
           </Grid>
-          <p className="p-4 xl:px-40 lg:px-21 md:px-12">
+          <p className="p-4 xl:px-40 lg:px-21 text-center md:px-12">
             Publishing packages and web page editors now use Lorem Ipsum as their default model text and a search for
             lorem ipsumwill uncover
           </p>
@@ -121,4 +121,3 @@ export default function Home() {
     </>
   );
 }
-
